@@ -1,0 +1,24 @@
+{
+	"info": {
+		"_postman_id": "4ea5e43e-5763-4759-9f18-ffd1754d84bc",
+		"name": "URL Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27435685"
+	},
+	"item": [
+		{
+			"name": "Test URL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}",
+					"host": [
+						"{{url}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
